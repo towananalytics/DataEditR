@@ -106,6 +106,9 @@ dataInputServer <- function(id,
     if (!hide) {
       show("file")
       show("data")
+    } else {
+      hide("file")
+      hide("data")
     }
     
     # CHECK
